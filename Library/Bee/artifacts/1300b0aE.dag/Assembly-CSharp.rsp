@@ -314,6 +314,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/btnFX.cs"
 "Assets/Scripts/EmptyScript2.cs"
 "Assets/Scripts/EmptyScript3.cs"
 "Assets/Scripts/enjoymanage.cs"
