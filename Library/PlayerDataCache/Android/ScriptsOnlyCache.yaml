@@ -1,10 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - EnjoyManager
     - FoodManager
     - HealManager
     - JobManager
     - ManagerNeeds
+    - btnFX
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -13,6 +15,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -35,6 +38,10 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -59,9 +66,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 3482}
+      Script: {instanceID: 3248}
     - Class: 114
-      Script: {instanceID: 3670}
+      Script: {instanceID: 3410}
+    - Class: 114
+      Script: {instanceID: 3484}
+    - Class: 114
+      Script: {instanceID: 3672}
+    - Class: 114
+      Script: {instanceID: 36198}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -443,6 +456,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 782bc23745d4eecde48847f8c0c23cc4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: btnFX
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -561,6 +580,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 5a147c4befce8d96b15aca470dc72fdb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnjoyManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
